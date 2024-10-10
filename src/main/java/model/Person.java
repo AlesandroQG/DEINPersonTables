@@ -44,6 +44,7 @@ public class Person {
      * @param birthDate fecha de nacimiento
      */
     public Person(String firstName, String lastName, LocalDate birthDate) {
+        this.personId = personSequence.addAndGet(1);
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthDate = birthDate;

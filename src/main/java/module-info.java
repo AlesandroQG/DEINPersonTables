@@ -7,4 +7,5 @@ module com.alesandro.deinpersontables {
     exports com.alesandro.deinpersontables;
     exports control;
     opens control to javafx.fxml;
+    exports model;
 }
